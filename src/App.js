@@ -25,7 +25,7 @@ const App = () => {
       const pickedUser =
           user && (({accessToken, email}) => ({accessToken, email}))(user)
 
-      console.log("1", setCurrentUser(pickedUser))
+      // console.log("1", setCurrentUser(pickedUser))
       dispatch(setCurrentUser(pickedUser));
     });
 
